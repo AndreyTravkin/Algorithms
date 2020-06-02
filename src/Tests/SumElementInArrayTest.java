@@ -14,6 +14,7 @@ public class SumElementInArrayTest {
         int expectedResult = 119;
         int actualResult =  sumElementInArray.sumElements(array);
         Assertions.assertEquals(expectedResult, actualResult);
+
     }
 
 }

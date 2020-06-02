@@ -13,7 +13,17 @@ public class ReserveStringTest {
         String regular = "batya";
         String expectedResult = "aytab";
 
+        String regular2 = "apache";
+        String expectedResult2 = "ehcapa";
+
         String actualResult = reverse.reverseString(regular);
         Assertions.assertEquals(expectedResult, actualResult);
+
+
+        String actualResult2 = reverse.reverseString2(regular2);
+        Assertions.assertEquals(expectedResult2, actualResult2);
     }
+
+
+
 }

@@ -8,4 +8,16 @@ public class ReverseString {
 
         return reversed;
     }
+
+    public String reverseString2(String txt) {
+
+        String reversedString = "";
+
+        for (int i = txt.length() - 1; i >= 0; i-- ) {
+            reversedString = reversedString + txt.charAt(i);
+        }
+
+        return reversedString;
+    }
+
 }
